@@ -7,7 +7,7 @@ import (
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello, before rollback!")
+    fmt.Fprintf(w, "Hello, after rollback!")
 }
 
 func main() {
